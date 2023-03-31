@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 });
 
 const PORT = 8000;
-mongoose.connect("mongodb+srv://afaqnasir:<password>@crud-app.0nrj24r.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://sachin:02112003@mycluster.vpmrumy.mongodb.net/crud-app?retryWrites=true&w=majority")
 .then(()=>{
     console.log("database connected");
     app.listen(PORT,()=>console.log(`server is running on port ${PORT}`))
